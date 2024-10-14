@@ -1,0 +1,6 @@
+<!-- src/app/app.component.html -->
+<div class="container">
+  <h1>{{ title }}</h1>
+  <app-task-form [taskToEdit]="taskListComponent.taskToEdit"></app-task-form>
+  <app-task-list #taskListComponent></app-task-list>
+</div>

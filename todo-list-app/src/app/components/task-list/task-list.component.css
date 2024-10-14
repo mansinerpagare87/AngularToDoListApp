@@ -1,0 +1,26 @@
+.task-list {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .task-list h3 {
+    margin-bottom: 10px;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .task-list li:last-child {
+    border-bottom: none;
+  }
+  

@@ -1,0 +1,5 @@
+<!-- src/app/components/task-form/task-form.component.html -->
+<form [formGroup]="taskForm" (ngSubmit)="saveTask()">
+  <input formControlName="title" placeholder="Enter task title" />
+  <button type="submit">{{ taskToEdit ? 'Update Task' : 'Add Task' }}</button>
+</form>
